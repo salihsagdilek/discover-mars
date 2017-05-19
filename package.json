@@ -1,0 +1,17 @@
+{
+  "name": "project-mars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mars-rover/index.js",
+  "scripts": {
+    "discover": "./node_modules/.bin/webpack && node ./dist/discoverMars.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^2.5.1"
+  }
+}
